@@ -1,0 +1,228 @@
+body {
+  background: #eff0ed;
+  scroll-behavior: smooth;
+  margin: 0;
+}
+
+/*HEADER*/
+header {
+  margin: 0;
+  background: rgba(0, 0, 0, 0.4);
+  width: 100%;
+  position: fixed;
+}
+.header-icon {
+  padding: 12px 18px;
+  vertical-align: middle;
+}
+button {
+  font-family: "Source Sans Pro", sans-serif;
+  background: none;
+  transition: all 200ms ease;
+}
+.header-btn {
+  margin: 0px;
+  padding: 10px 15px;
+  color: #ffffff;
+  font-size: 16px;
+  border: none;
+}
+.header-btn:hover {
+  color: #dddddd;
+  cursor: pointer;
+}
+
+/*FOOTER*/
+.subscribe-div {
+  display: flex;
+  justify-content: center;
+  background: rgba(0, 0, 0, 0.09);
+  padding: 0;
+  margin: 0;
+  width: 100%;
+}
+.message-to-subscribe {
+  font-family: "Amatic SC", cursive;
+  font-size: 30px;
+  display: flex;
+  vertical-align: middle;
+  text-align: right;
+  padding: 10px;
+}
+.subscribe-form {
+  display: flex;
+  align-items: middle;
+  margin: 40px 10px;
+}
+.subscribing-email {
+  background: rgba(255, 255, 255, 0.8);
+  font-family: "Source Sans Pro", sans-serif;
+  padding: 12px 120px 12px 12px;
+  margin: 0 10px 0 0;
+  border: 1px solid #000000;
+  border-radius: 15px;
+}
+.subscribing-btn {
+  font-family: "Source Sans Pro", sans-serif;
+  font-style: italic;
+  text-align: center;
+  background: none;
+  padding: 12px 25px;
+  border: 1px solid #000000;
+  border-radius: 15px;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
+}
+.subscribing-btn:hover {
+  background: rgba(0, 0, 0, 0.5);
+  color: #ffffff;
+  cursor: pointer;
+}
+.footer-message {
+  text-align: center;
+  font-family: "Source Sans Pro", sans-serif;
+  font-size: 14px;
+  opacity: 0.7;
+  padding: 0 0 20px 0;
+}
+
+/*HOME PAGE*/
+.vegan-power-icon {
+  display: block;
+  margin: 0 auto;
+  padding: 120px 0 0px 0;
+}
+.brand-name {
+  font-family: "Amatic SC", cursive;
+  text-align: center;
+  font-size: 80px;
+  font-weight: 600;
+  color: #7c9e3c;
+  padding: 0 0 40px 0;
+  margin: 10px 0;
+  line-height: 0.3;
+}
+.slogan {
+  font-family: "Source Sans Pro", sans-serif;
+  text-align: center;
+  font-size: 18px;
+  font-weight: 200;
+  opacity: 0.7;
+}
+.social-media-icons {
+  text-align: center;
+  padding: 40px 0 0 0;
+}
+.instagram-icon,
+.facebook-icon,
+.email-icon {
+  padding: 10px;
+  margin: 0 0 20px 0;
+  opacity: 0.5;
+  transition: all 200ms ease-in-out;
+}
+.instagram-icon:hover,
+.facebook-icon:hover,
+.email-icon:hover {
+  opacity: 0.9;
+}
+.introduction {
+  display: flex;
+  justify-content: center;
+  vertical-align: middle;
+  width: 100%;
+  background: #dddddd;
+  margin: 20px 0 0 0;
+}
+.introduction-box {
+  max-width: 600px;
+  padding: 50px 0 30px 20px;
+}
+.introduction-pic {
+  border-radius: 50%;
+  padding: 50px;
+}
+.introduction-title {
+  font-family: "Amatic SC", cursive;
+  font-size: 30px;
+  padding: 10px 0;
+  margin: 0;
+}
+.introduction-text {
+  font-family: "Source Sans Pro", sans-serif;
+  font-size: 16px;
+  line-height: 1.7;
+}
+.introduction-btn {
+  font-style: italic;
+  padding: 12px 25px;
+  margin: 20px 0;
+  border: 1px solid #000000;
+  border-radius: 15px;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
+}
+.introduction-btn:hover {
+  background: rgba(0, 0, 0, 0.5);
+  color: #ffffff;
+  cursor: pointer;
+}
+.blog-container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin: 60px 0 10px 0;
+  padding: 0;
+}
+.blog-example {
+  background: rgba(255, 255, 255, 0.8);
+  padding: 0px;
+  margin: 15px;
+  max-width: 250px;
+  min-height: 480px;
+}
+.blog-example-img {
+  height: 250px;
+  width: 250px;
+  object-fit: cover;
+  display: block;
+  margin: 0 auto;
+  padding: 0;
+}
+.blog-example-title {
+  font-family: "Amatic SC", cursive;
+  font-size: 25px;
+  font-weight: 200;
+  text-align: center;
+}
+.read-more-btn {
+  display: block;
+  margin: 0 auto;
+  padding: 12px 25px;
+  font-style: italic;
+  border: 1px solid #000000;
+  border-radius: 15px;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
+}
+.read-more-btn:hover {
+  background: rgba(0, 0, 0, 0.5);
+  color: #ffffff;
+  cursor: pointer;
+}
+.food-blog-link-btn {
+  margin: 10px 0 50px 0;
+}
+.blog-check-more-btn {
+  display: block;
+  margin: 20px auto;
+  padding: 12px 25px;
+  font-family: "Source Sans Pro", sans-serif;
+  font-style: italic;
+  font-size: 16px;
+  background: rgba(255, 255, 255, 0.6);
+  border: 1px solid #000000;
+  border-radius: 15px;
+}
+.blog-check-more-btn:hover {
+  background: rgba(0, 0, 0, 0.5);
+  color: #ffffff;
+  cursor: pointer;
+}
