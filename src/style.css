@@ -251,3 +251,59 @@ button {
   line-height: 1.8;
   max-width: 650px;
 }
+
+/*CONTACTS PAGE*/
+.contact-form-message {
+  font-family: "Source Sans Pro", sans-serif;
+  font-size: 16px;
+  line-height: 1.8;
+  max-width: 650px;
+  display: block;
+  margin: 25px auto;
+  padding: 0;
+}
+.vegan-power-link {
+  color: #000000;
+}
+.contact-form-box {
+  padding: 5px 0 50px 0;
+}
+.contact-form-fields {
+  font-family: "Source Sans Pro", sans-serif;
+  font-size: 16px;
+  background: none;
+  border: 1px solid #000000;
+}
+.form-name-field {
+  display: block;
+  margin: 10px auto;
+  width: 500px;
+  padding: 12px;
+  border-radius: 10px;
+}
+.form-email-field {
+  display: block;
+  margin: 10px auto;
+  width: 500px;
+  padding: 12px;
+  border-radius: 10px;
+}
+.form-message-field {
+  display: block;
+  margin: 10px auto;
+  width: 500px;
+  padding: 12px;
+  border-radius: 10px;
+}
+.form-submit-btn {
+  display: block;
+  margin: 10px auto;
+  padding: 10px 20px;
+  border-radius: 15px;
+  font-style: italic;
+}
+.form-submit-btn:hover {
+  background: rgba(0, 0, 0, 0.5);
+  color: #ffffff;
+  cursor: pointer;
+}
