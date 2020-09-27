@@ -1,4 +1,5 @@
-function thanksForSubscribing() {
+let newsletterElement = document.querySelector(".subscribing-btn");
+newsletterElement.addEventListener("click", () => {
   let name = prompt("What's your name?");
   let veganElement = prompt("Are you vegan?");
 
@@ -11,16 +12,11 @@ function thanksForSubscribing() {
   } else {
     alert(`Thanks for subscribing, ${name} 🥰`);
   }
-}
+});
 
-function submitingContactForm() {
+let contactFormElement = document.querySelector(".form-submit-btn");
+contactFormElement.addEventListener("click", () => {
   alert(
     "Thanks for getting in touch! Please email me at vania@veganpower.pt 👌"
   );
-}
-
-let newsletterElement = document.querySelector(".subscribing-btn");
-newsletterElement.addEventListener("click", thanksForSubscribing);
-
-let contactFormElement = document.querySelector(".form-submit-btn");
-contactFormElement.addEventListener("click", submitingContactForm);
+});
