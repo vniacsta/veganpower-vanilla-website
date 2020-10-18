@@ -178,22 +178,32 @@ button {
   margin: 60px 0 10px 0;
   padding: 0;
 }
-.blog-example {
+.blog-example,
+.food-example {
   background: rgba(255, 255, 255, 0.8);
   padding: 0px;
   margin: 15px;
   max-width: 250px;
   min-height: 400px;
+  border-radius: 10px;
 }
-.blog-example-img {
+.blog-example-img,
+.food-example-img {
   height: 250px;
   width: 250px;
   object-fit: cover;
   display: block;
   margin: 0 auto;
   padding: 0;
+  border-radius: 10px 10px 0 0;
 }
-.blog-example-title {
+.blog-example-img:hover,
+.food-example-img:hover {
+  transform: scale(1.2);
+  border-radius: 0;
+}
+.blog-example-title,
+.food-example-title {
   font-family: "Amatic SC", cursive;
   font-size: 25px;
   font-weight: 200;
@@ -268,27 +278,6 @@ button {
   justify-content: center;
   margin: 10px 0 10px 0;
   padding: 0;
-}
-.food-example {
-  background: rgba(255, 255, 255, 0.8);
-  padding: 0px;
-  margin: 15px;
-  max-width: 250px;
-  min-height: 400px;
-}
-.food-example-img {
-  height: 250px;
-  width: 250px;
-  object-fit: cover;
-  display: block;
-  margin: 0 auto;
-  padding: 0;
-}
-.food-example-title {
-  font-family: "Amatic SC", cursive;
-  font-size: 25px;
-  font-weight: 200;
-  text-align: center;
 }
 .last-table {
   padding-bottom: 40px;
