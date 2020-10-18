@@ -79,6 +79,9 @@ button {
   color: #ffffff;
   cursor: pointer;
 }
+input {
+  outline: none;
+}
 .footer-message {
   text-align: center;
   font-family: "Source Sans Pro", sans-serif;
