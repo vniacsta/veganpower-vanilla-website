@@ -17,6 +17,6 @@ newsletterElement.addEventListener("click", () => {
 let contactFormElement = document.querySelector(".form-submit-btn");
 contactFormElement.addEventListener("click", () => {
   alert(
-    "Thanks for getting in touch! Please email me at vania@veganpower.pt 👌"
+    "Thanks for getting in touch! Please email me at info@vniacsta.com 👌"
   );
 });
